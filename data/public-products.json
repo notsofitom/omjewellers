@@ -1,0 +1,92 @@
+[
+  {
+    "reference": "latest",
+    "name": "bracelet",
+    "category": "CUBAN-BRACELETS",
+    "imagePath": "/catalogue/CUBAN-BRACELETS/page_007_image_01.jpeg",
+    "price": 76000,
+    "description": null,
+    "isActive": true,
+    "homeFeaturedOrder": null
+  },
+  {
+    "reference": "PDF-n028",
+    "name": null,
+    "category": "very new",
+    "imagePath": "https://res.cloudinary.com/wsvc3hs1/image/upload/v1792947895/vyaparai/products/clgyxql9bd5clbvifsfd.jpg",
+    "price": null,
+    "description": null,
+    "isActive": true,
+    "homeFeaturedOrder": 0
+  },
+  {
+    "reference": "PDF-n026",
+    "name": null,
+    "category": "very new",
+    "imagePath": "https://res.cloudinary.com/wsvc3hs1/image/upload/v1792947893/vyaparai/products/boavjrc8frzwffacq1ec.jpg",
+    "price": null,
+    "description": null,
+    "isActive": true,
+    "homeFeaturedOrder": 3
+  },
+  {
+    "reference": "gold bracelet",
+    "name": null,
+    "category": "CUBAN-BRACELETS-9K",
+    "imagePath": "/catalogue/CUBAN-BRACELETS-9K/page_008_image_01.jpeg",
+    "price": null,
+    "description": null,
+    "isActive": true,
+    "homeFeaturedOrder": null
+  },
+  {
+    "reference": "new type chain",
+    "name": null,
+    "category": "LADIES-CHAINS9K",
+    "imagePath": "/catalogue/LADIES-CHAINS9K/page_001_image_01.jpeg",
+    "price": null,
+    "description": null,
+    "isActive": true,
+    "homeFeaturedOrder": 2
+  },
+  {
+    "reference": "new",
+    "name": null,
+    "category": "GENTS-CHAINS",
+    "imagePath": "/images/placeholder.svg",
+    "price": null,
+    "description": null,
+    "isActive": true,
+    "homeFeaturedOrder": null
+  },
+  {
+    "reference": "om",
+    "name": "md dc",
+    "category": "CUBAN-BRACELETS",
+    "imagePath": "/catalogue/CUBAN-BRACELETS/page_001_image_01.jpeg",
+    "price": null,
+    "description": "vfvr",
+    "isActive": true,
+    "homeFeaturedOrder": null
+  },
+  {
+    "reference": "omsoni",
+    "name": null,
+    "category": "CUBAN-BRACELETS",
+    "imagePath": "/catalogue/CUBAN-BRACELETS/page_001_image_01.jpeg",
+    "price": null,
+    "description": null,
+    "isActive": true,
+    "homeFeaturedOrder": 4
+  },
+  {
+    "reference": "test22",
+    "name": null,
+    "category": "CUBAN-BRACELETS",
+    "imagePath": "/catalogue/CUBAN-BRACELETS/page_001_image_01.jpeg",
+    "price": 89000,
+    "description": null,
+    "isActive": true,
+    "homeFeaturedOrder": 1
+  }
+]

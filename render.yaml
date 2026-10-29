@@ -1,0 +1,39 @@
+services:
+  - type: web
+    name: om-jewellers
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm ci && npx prisma generate && npx prisma generate --schema prisma/schema.postgresql.prisma --config prisma.config.postgresql.ts && npm run build
+    startCommand: npx prisma migrate deploy --config prisma.config.postgresql.ts && npm start
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_PROVIDER
+        value: postgresql
+      - key: AUTH_SECRET
+        generateValue: true
+      - key: OWNER_PASSWORD_HASH
+        sync: false
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash-lite
+      - key: RESEND_API_KEY
+        sync: false
+      - key: RESEND_FROM_EMAIL
+        sync: false
+      - key: SHOP_ENQUIRY_EMAIL
+        sync: false
+      - key: NEXT_PUBLIC_SHOP_EMAIL
+        sync: false
+      - key: NEXT_PUBLIC_SHOP_WHATSAPP_NUMBER
+        sync: false
+      - key: NEXT_PUBLIC_SHOP_CITY
+        sync: false
